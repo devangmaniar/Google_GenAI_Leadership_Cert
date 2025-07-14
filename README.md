@@ -25,6 +25,6 @@ When using Markdown badges
 
 ------------------------
 
-# 2.What is Generative AI
+# 2. What is Generative AI
 
 ## 2.1 What are 4-ways to use GenAI
