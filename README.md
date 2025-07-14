@@ -8,7 +8,7 @@ These are my personal summary notes on the Google GenAI Leadership Certification
 
 - [1. Fundamentals of AI](#1-fundamentals-of-ai)
   * [1.1 What is Artificial Intelligence](#11-what-is-artificial-intelligence)
-  * [1.2 Predefined Markdown badges](#12-predefined-markdown-badges)
+  * [1.2 What is Machine Learning](#12-what-is-machine-learning)
   - ---
 
 # 1. Fundamentals of AI
@@ -17,5 +17,5 @@ One of the easiest ways is to import images of badges or logos into your GitHub 
 
 ------------------------
 
-## 1.2 Predefined Markdown badges
+## 1.2 What is Machine Learning
 When using Markdown badges
