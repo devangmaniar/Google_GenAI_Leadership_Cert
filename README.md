@@ -4,15 +4,34 @@ These are my personal summary notes on the Google GenAI Leadership Certification
 
 ---
 
-# Table of Contents
+<style>
+  .toc a {
+    text-decoration: none;
+    color: black;
+  }
 
-- [1. Fundamentals of AI](#1-fundamentals-of-ai)
-  * [1.1 What is Artificial Intelligence](#11-what-is-artificial-intelligence)
-  * [1.2 What is Machine Learning](#12-what-is-machine-learning)
-- [2. What is Generative AI](#2-what-is-generative-ai)
-  * [2.1 What is Generative AI](#21-what-is-generative-ai)
-  * [2.2 What are ways to use GenAI](#22-what-are-ways-to-use-genaI)
-  ----
+  .toc a:hover {
+    color: #007acc; /* Optional: add hover effect */
+  }
+</style>
+
+<h2>Table of Contents</h2>
+<ul class="toc">
+  <li><a href="#1-fundamentals-of-ai">1. Fundamentals of AI</a>
+    <ul>
+      <li><a href="#11-what-is-artificial-intelligence">1.1 What is Artificial Intelligence</a></li>
+      <li><a href="#12-what-is-machine-learning">1.2 What is Machine Learning</a></li>
+    </ul>
+  </li>
+  <li><a href="#2-what-is-generative-ai">2. What is Generative AI</a>
+    <ul>
+      <li><a href="#21-what-is-generative-ai">2.1 What is Generative AI</a></li>
+      <li><a href="#22-what-are-ways-to-use-genai">2.2 What are ways to use GenAI</a></li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
 
 # 1. Fundamentals of AI
 ## 1.1 What is Artificial Intelligence
