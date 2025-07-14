@@ -6,7 +6,7 @@ These are my personal summary notes on Google GenAI Leadership Ceritification Co
 ----------------
 # Table of contents
 - [1. FUNDAMENTALS of AI](#1-fundamentals-of-ai)
-  * [1.1 What is Artificial Intelligence (AI)?](#11-what-is-artificial-itelligence?)
+  * [1.1 What is Artificial Intelligence?](#11-what-is-artificial-itelligence?)
   * [1.2 What is Machine Learning (ML)?](#12-what-is-machine-learning)
   * [1.3 What is Deep Learning (DL)?](#13-what-is-deep-learning)
   * [1.4. What is Generative AI (GenAI)?](#14-what-is-generative-ai)
