@@ -38,7 +38,7 @@ One of the easiest ways is to import images of badges or logos into your GitHub 
 
 ------------------------
 
-## 1.2  What is Machine Learning (ML)?
+## 1.2  What is Machine Learning
 When using Markdown badges, you simply need to copy and paste the badge codes as shown in the table on your GitHub README. A comprehensive list of Markdown badges can be found at the following links and you just need to copy and paste them into your README: [LINK1](https://github.com/Ileriayo/markdown-badges), [LINK2](https://github.com/Naereen/badges).
 
 
