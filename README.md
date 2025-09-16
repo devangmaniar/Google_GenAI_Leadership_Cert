@@ -679,3 +679,187 @@ There are 4 ways businesses can leverage Google’s GenAI Ecosystem:
 - Combines optimized hardware (TPUs, GPUs), software, storage, and high-performance networking (e.g., optical circuit switches) into an integrated system.  
 - Designed to **efficiently train very large and complex AI models**.
 
+# SECTION 3: Techniques to Improve GenAI Output (20% of EXAM)
+
+## Modeling Technique: Grounding
+
+### What is GROUNDING Modeling Technique?
+- Grounding connects a model's output to **VERIFIABLE DATA SOURCES, REAL-WORLD, and UP-TO-DATE INFORMATION**.  
+- Improves **FACTUAL ACCURACY, RELEVANCE, and TRUSTWORTHINESS** by basing responses on factual data.  
+- Reduces **INACCURACY & HALLUCINATIONS** (making things up).  
+- Uses **EXTERNAL DATA SOURCES** like search results, documents, databases, APIs, or enterprise systems.
+
+#### Example of Grounding in Google Search
+1. **Use Case 1:** "What are the symptoms of vitamin D deficiency?"  
+   - Grounding Response: GenAI summarizes the answer using reliable medical sources (e.g., Mayo Clinic, WebMD) and provides links.
+2. **Use Case 2:** "What did the Fed say about interest rates this week?"  
+   - Grounding Response: Summarizes based on real-time news articles or press releases, citing sources like Reuters or CNBC.
+
+---
+
+### Sub-Modeling Techniques: Grounding
+
+#### 1. What is RAG?
+- **RAG (Retrieval Augmented Generation)** retrieves relevant information or documents and feeds them into the model for accurate responses.  
+- **RAG = Retrieval + Augmentation + Generation**:
+  - **Retrieval:** Model retrieves factual data from external sources.  
+  - **Augmentation:** Retrieved info is added as input to the model.  
+  - **Generation:** Model processes the augmented input to generate a response.  
+
+**Example of RAG:**
+- **Use Case 1:** "What are the side effects of melatonin?"  
+  - Retrieval: System searches trusted sources.  
+  - Augmentation: Retrieved info fed into the model.  
+  - Generation: Model outputs a factual, grounded answer.  
+
+- **Use Case 2:** "What is our company’s leave policy for remote employees in 2025?"  
+  - Retrieval: Pulls relevant content from HR policy docs.  
+  - Augmentation: Combines retrieved sections with the user query.  
+  - Generation: Produces answer: "Remote employees are eligible for 20 days of annual leave, including 5 remote wellness days."
+
+#### 2. What are RAG APIs?
+- Allow GenAI models to retrieve **UP-TO-DATE and RELEVANT INFORMATION** from external sources.  
+- Provided as **cloud-based services and developer tools (SDKs)** in Google’s Vertex AI Search.
+
+#### 3. What is GROUNDING WITH GOOGLE SEARCH?
+- Connects Gemini model to **real-time, factual web content**.  
+- Ensures responses are **current, trustworthy, and verifiable**.
+
+#### 4. What is VERTEX AI SEARCH?
+- Enterprise-grade search engine over **internal business data**.  
+- Automatically indexes both structured (databases, CSVs) and unstructured content (PDFs, logs).
+
+#### 5. What is PREBUILT RAG with Vertex AI Search?
+- Combines **Vertex AI Search + RAG**.  
+- Indexed data is used to **ground model responses**.  
+- Helps build GenAI apps that respond based on enterprise data.
+
+---
+
+## Modeling Technique: Prompt Engineering
+
+### What is PROMPT ENGINEERING (Prompting)?
+- Providing models with **clear, specific instructions (prompts)** for more accurate outputs.  
+- Guides foundational models to generate desired outputs.  
+- Optimizes prompts to **maximize output quality**.
+
+**Example:**
+- Generic Input: `"What is our return policy for electronics purchased during the holiday season?"`  
+- Prompt Engineering Input: `"Electronics purchased between Nov 1 and Dec 31 can be returned within 60 days with the original receipt."`
+
+---
+
+## Modeling Technique: Fine Tuning
+
+### What is FINE TUNING?
+- Train the model on **domain-specific datasets** for better performance.  
+- Works with **smaller task-specific datasets**.
+
+**Example:**
+- Task: Review NDAs or contracts.  
+- Dataset: Thousands of internal legal documents.  
+- Result: Model understands organizational contract standards, highlights risks, and suggests changes.
+
+---
+
+## Modeling Technique: HITL (Human-in-the-Loop)
+
+### What is HITL?
+- Humans **actively guide, correct, and validate** model outputs.  
+- Used when AI alone is **not reliable**.  
+- Essential in regulated, sensitive, or customer-facing environments.
+
+**Example:**  
+- Task: Summarize medical/legal documents.  
+- Human expert reviews and corrects summaries.
+
+---
+
+## Prompt Engineering: Deep Dive
+
+### What are PROMPTS?
+- Input text given to AI to generate desired output.  
+- Can be a **question, command, or description**.
+
+### What are PROMPT ENGINEERS?
+- Professionals who **design, test, and refine prompts**.  
+- Optimize AI model performance and collaborate with teams.
+
+### What is REUSING PROMPTS?
+- Save prompts as **templates** for repeated use.  
+- Useful in **prompt chaining**, saving conversation threads for future use.
+
+---
+
+### Types of Prompting Techniques
+
+#### 1. ZERO SHOT Prompting
+- Task completed **without prior examples**.  
+- Model relies on **pretrained intelligence**.  
+
+**Example:**  
+- Task: "Write a formal email apologizing for a late delivery."  
+- Model generates response using pretrained knowledge.
+
+#### 2. ONE SHOT Prompting
+- Provide **one example** as guidance.  
+
+**Example:**  
+- Task: Translate "It is a hot day" to French.  
+- Example: `"English: Hello -> French: Bonjour"`  
+- Model Output: `"C’est une journée chaude"`
+
+#### 3. FEW SHOT Prompting
+- Provide **multiple examples** for guidance.  
+
+**Example:**  
+- Input: Multiple movie reviews labeled Positive/Negative/Neutral  
+- Model learns patterns and outputs sentiment for a new review.
+
+#### 4. ReACT Prompting
+- Combines **Reasoning + Action + Observation** for step-by-step problem-solving.  
+- Uses external tools (Search, APIs, Calculators).  
+
+**Example:**  
+- Task: Compare population of NYC and Tokyo.  
+- ReACT steps:
+  1. Thought → Identify info needed.  
+  2. Action → Search for population.  
+  3. Observation → Collect numbers.  
+  4. Repeat until final answer.
+
+#### 5. Chain of Thought (CoT)
+- Guides AI to **reason step-by-step**.  
+- No external actions, focuses on **logic and intermediate reasoning**.
+
+#### 6. Prompt Chaining
+- Breaks complex tasks into **smaller prompts**.  
+- Output from one prompt informs the next.  
+
+**Example:**  
+- Prompt 1: Summarize a 10-page document.  
+- Prompt 2: Generate executive summary.  
+- Prompt 3: Create slide bullet points from summary.
+
+#### 7. ROLE PROMPTING
+- Assigns a **persona** to influence model style, tone, and focus.  
+
+**Examples:**  
+- Teacher → Explain math simply.  
+- Doctor → Give medical advice.  
+- Software Engineer → Write Python code.  
+- Legal Advisor → Summarize legal risks.
+
+#### 8. PROMPT TUNING
+- **Soft prompt embeddings** added to input to guide a frozen pre-trained model.  
+- Efficient fine-tuning for specific tasks without changing model weights.
+
+---
+
+### Difference between ReACT and CoT
+| Technique | ReACT | CoT |
+|-----------|-------|-----|
+| Action | Yes, uses tools/APIs | No |
+| Reasoning | Step-by-step + actions | Step-by-step reasoning only |
+| Example | Population of Japan: uses search | Explains reasoning using logic/math |
+
