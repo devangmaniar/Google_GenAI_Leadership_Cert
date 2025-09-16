@@ -1,28 +1,5 @@
 # SECTION 1: Fundamentals of GenAI (30% of EXAM)
 
-## Table of Contents
-1. [Core Concepts of Artificial Intelligence](#core-concepts-of-artificial-intelligence)
-   - [Artificial Intelligence (AI)](#what-is-artificial-intelligence-ai)
-   - [Machine Learning (ML)](#what-is-machine-learning-ml)
-   - [Deep Learning (DL)](#what-is-deep-learning-dl)
-   - [Generative AI (GenAI)](#what-is-generative-ai-genai)
-   - [Foundational Models](#what-are-foundational-models)
-   - [Large Language Models (LLM)](#what-are-large-language-models-llm)
-   - [Natural Language Processing (NLP)](#what-is-natural-language-processing-nlp)
-   - [Difference between Traditional AI and Generative AI](#what-is-difference-between-traditional-ai-and-generative-ai)
-2. [Machine Learning Approaches](#machine-learning-approaches)
-3. [Machine Learning Lifecycle](#machine-learning-lifecycle)
-4. [GenAI: 4-Ways to Use GenAI](#genai-4-ways-to-use-genai)
-5. [Key Roles for GenAI](#what-are-key-roles-for-genai)
-6. [5-Core Layers of GenAI](#genai-5-core-layers-of-genai)
-7. [Data](#data)
-   - [Structured vs Unstructured Data](#data-structured-vs-unstructured-data)
-   - [Labeled vs Unlabeled Data](#data-labeled-vs-unlabeled-data)
-8. [AI Models](#ai-models-types-of-ai-models)
-   - [Foundational Models Deep Dive](#ai-models-foundational-models-deep-dive)
-
----
-
 ## Core Concepts of Artificial Intelligence
 
 ### What is Artificial Intelligence (AI)?
