@@ -1,6 +1,6 @@
 # Introduction
 
-I created this study guide as a **personal reference to help prepare for the Google Generative AI Leadership Certification exam**. The guide is designed to provide a concise, well-organized overview of key concepts, broken down by each section of the exam along with their respective percentage coverage. It reflects my personal notes and learnings while preparing for the certification, and includes simple examples to make even complex concepts easier to understand, whether you are technical or non-technical.  
+I created this study guide as a **personal reference to help prepare for the Google Generative AI Leadership Certification exam (GAIL)**. The guide is designed to provide a concise, well-organized overview of key concepts, broken down by each section of the exam along with their respective percentage coverage. It reflects my personal notes and learnings while preparing for the certification, and includes simple examples to make even complex concepts easier to understand, whether you are technical or non-technical.  
 
 While this guide is a great reference, I highly encourage readers to also review **Google’s official study course**, which can be found here: [Google Cloud Generative AI Leadership Certification Path](https://www.cloudskillsboost.google/paths/1951). This ensures that you are aligned with the most current curriculum and training materials provided by Google.  
 
