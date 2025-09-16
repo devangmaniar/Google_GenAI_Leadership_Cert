@@ -275,6 +275,169 @@
 
 ---
 
+# Data
+
+## What is DATA?
+- Data is **INFORMATION** used to train, build and improve Machine Learning models.  
+- Data comes in many forms: numbers, dates, text, images or sound.  
+- Machine Learning models require **QUALITY DATA** to be effective.  
+- Foundational Models are Large Scale AI models trained on massive datasets, so the performance of Foundation Models relies heavily on **quality data**.  
+- GenAI models are **highly dependent on quality data**. If the customer data is inconsistent, incomplete (missing fields), and siloed (poor accessibility), the resulting personalized content will likely be inaccurate, irrelevant, or ineffective. Addressing data quality (completeness, consistency, relevance) and accessibility is a foundational prerequisite.
+
+---
+
+## What are KEY CHARACTERISTICS of QUALITY DATA? *(Exam – Tricky)*
+1. **Accuracy** – Incorrect data will return incorrect patterns by the ML models.  
+2. **Completeness** – Refers to the missing data points within the dataset.  
+3. **Representative** – Data must be representative and inclusive to avoid skewed samples and biased outcomes.  
+4. **Consistency** – Values must be uniform and not contradict each other. Inconsistent formats or labeling can confuse ML models.  
+5. **Relevance** – Data must be appropriate, applicable, and relevant to the problem being solved.  
+6. **Cost** – The expense of acquiring or preparing the data.
+
+---
+
+## What is PSEUDONYMIZATION Data?
+- Process of replacing direct identifiers with artificial ones to reduce privacy risks while still allowing data to be linked for analysis.
+
+## What is Data ANONYMIZATION?
+- Process of removing personal, private, or sensitive data from the model for privacy protection.
+
+---
+
+# Data: Structured vs Unstructured Data
+
+### 1. Structured Data
+- Organized and easy to search, often stored in **relational databases, spreadsheets, or tables**.  
+- Structured Data is organized in a **fixed schema** (rows and columns).  
+- **Examples**: Excel spreadsheets, SQL databases, CSV files.
+
+### 2. Unstructured Data
+- Does not follow a predefined format or schema.  
+- Messy, not stored in traditional rows/columns. Requires pre-processing for analysis.  
+- **Examples**:  
+  - Text – Emails, PDFs, Word Documents  
+  - Audio – Voicemails, call recordings, podcasts  
+  - Video – Surveillance footage  
+  - Images – Medical scans, photographs, screenshots  
+
+---
+
+# Data: Labeled vs Unlabeled Data
+
+### 1. Labeled Data
+- Has **tags** such as a name, type, or number.  
+- Typically used in **supervised ML** where models learn from pre-tagged examples.  
+- Consists of input data **paired with output labels**.  
+- **Examples**:  
+  - Image dataset labeled as *cat* or *dog*.  
+  - Customer reviews labeled as *positive*, *negative*, or *neutral*.  
+  - Emails tagged as *Billing Inquiry*, *Technical Support*, or *Feature Request*.  
+
+### 2. Unlabeled Data
+- Raw or unprocessed data with no tags.  
+- **Foundational Models** often train on massive amounts of unlabeled data.  
+- **Examples**:  
+  - Collection of unorganized photos  
+  - Stream of audio recordings  
+  - Website traffic logs without categorization  
+
+---
+
+# AI Models: Types of AI Models
+
+## What are GenAI Models?
+- Focused on **generating new content** (text, images, music, video).  
+- Trained on large datasets of existing content.  
+- Learn from patterns to generate new content.  
+- Accessible via **Vertex AI, AI Studio, and Gemini for Workspace**.
+
+## What are Foundational Models?
+- **Large-scale AI Models** pre-trained on massive and diverse datasets.  
+- Provide a broad understanding of the world and can perform a wide variety of tasks.  
+- Brains of the AI system and agents.  
+- **Examples**: Google Gemini, OpenAI GPT.  
+- **Note**: LLMs are a subset of Foundational Models.  
+
+## What are Large Language Models (LLMs)?
+- Deep learning models **pre-trained on massive text datasets**.  
+- Can understand and generate text.  
+- Used for tasks like Q&A, text generation, and translation.  
+
+## What are Multimodal Foundational Models?
+- Can process multiple input types **simultaneously** (text, images, audio, video).  
+- Provide richer responses and smarter decisions.  
+
+## What are Diffusion Models? *(Exam Topic – New)*
+- Generate **high-quality images from text descriptions** (text-to-image).  
+- Work by adding noise to training images and learning to reverse the process.  
+
+## What are Machine Learning Models?
+- **Algorithms** trained on narrow, task-specific datasets.  
+- Usually built for one task (house price prediction, spam detection).  
+- Examples: Linear Regression, Decision Trees, Random Forest.  
+
+---
+
+# AI Models: How to Choose the Right Model
+
+### Key Factors:
+1. **Modality** *(Exam Topic)* – Type of data the model can process (text, image, audio, video).  
+2. **Context Window** *(Exam Topic)* – Defines how much input text a model can remember in one prompt.  
+3. **Performance** – How well the model meets business requirements.  
+4. **Availability and Reliability** – Accessibility and stability of the model.  
+
+---
+
+# AI Models: Foundational Models Deep Dive
+
+## Key Features
+1. **Trained on Diverse Data** – Learn patterns applicable across domains.  
+2. **Flexible** – One model can support a wide range of use cases.  
+3. **Adaptable** – Can be fine-tuned for specific tasks.  
+
+## Limitations *(Most Frequently Asked Exam Question)*
+1. **Data Dependency** – Quality/completeness of data directly affects performance.  
+2. **Knowledge Cutoff** – Models lack knowledge after their training cutoff date.  
+3. **Bias** – Training datasets may introduce bias.  
+4. **Fairness** – Must avoid discriminatory or unjust outcomes.  
+5. **Hallucinations** – May generate false or misleading information.  
+6. **Edge Cases** – Rare scenarios may expose weaknesses.  
+
+---
+
+# Differences
+
+## Foundational Models vs LLMs
+- **LLMs** – Subset of foundation models, language-focused (NLP tasks).  
+- **Foundation Models** – Broader category, multimodal (text, vision, robotics, etc.).  
+
+## Foundational vs Traditional Models
+- **Foundational Models** – Large, pre-trained, flexible, broad understanding.  
+- **Traditional Models** – Narrow, task-specific, no broad generalization.  
+
+---
+
+# AI Models: 4 Key Types of Foundational Models
+
+1. **Gemini Model**  
+   - Google’s multimodal foundational model.  
+   - Handles text, images, and audio at the same time.  
+   - Competitors: OpenAI ChatGPT, Meta LLaMA.  
+
+2. **Gemma Model**  
+   - Lightweight, open-source model.  
+   - Smaller, faster, easier to run than Gemini.  
+   - Ideal for startups/researchers.  
+
+3. **Imagen Model**  
+   - Text-to-image model.  
+   - Generates high-quality, photorealistic images from text.  
+
+4. **Veo Model**  
+   - Text-to-video model.  
+   - Generates video clips from text, images, or video prompts.  
+   - Includes watermarking for safe use.  
+
 
 # SECTION 2: Google Cloud GenAI Offerings (35% of EXAM)
 
