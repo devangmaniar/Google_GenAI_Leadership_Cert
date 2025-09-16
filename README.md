@@ -357,3 +357,41 @@ This repository explains the three main approaches to Machine Learning: Supervis
 
 ---
 
+SECTION 1: Machine Learning Lifecycle  
+Machine Learning Lifecycle  
+What is Machine Learning LIFECYCLE?  
+•	Machine Learning Lifecycle is the end-to-end process for BUILDING, DEPLOYING and MAINTAINING a machine learning model.  
+•	Machine Learning Lifecycle includes all the key stages from understanding the problem to delivering and monitoring the model in production.  
+
+What are KEY STAGES of Machine Learning Lifecycle?  
+1.	Data Ingestion and Preparation  
+2.	Model Training  
+3.	Model Evaluation  
+4.	Model Deployment  
+5.	Model Management or Model Monitoring  
+
+Data Ingestion / Preparation  
+What is Data Ingestion and Preparation?  
+•	Gathering and acquiring raw data from various sources needed for training the model (databases, APIs, sensors, files, etc.).  
+•	Quality Data is the foundation of any ML model.  
+•	Cleaning, Transforming and Organizing the raw data into USABLE FORMAT so the model can learn from it.  
+•	Example: A facial recognition model trained only on adult male faces may fail badly on women or children.  
+
+Model Training  
+What is Model Training?  
+•	Process of CREATING your own ML model using the prepared and transformed data.  
+•	Choosing an ALGORITHM to Feed Labeled or Un-Labeled data to train the ML model so it can learn from patterns, relationships, or rules.  
+
+Model Evaluation  
+What is Model Evaluation?  
+•	Model Evaluation involves assessing the model's performance against predefined metrics and business objectives to determine if it meets the required standards for quality, accuracy, and suitability for its intended use case.  
+
+Model Deployment  
+What is Model Deployment?  
+•	Deploy the trained model into PRODUCTION so it can start making real predictions or decisions on new incoming data and available for use.  
+•	Integrate the trained model into real-world systems (apps, dashboards, APIs) so it can start delivering business value.  
+
+Model Management or Model Monitoring  
+What is Model Management or Model Monitoring?  
+•	MANAGING and MONITORING your models over time so the model stays accurate and effective as data changes over time.  
+•	Data changes over time (aka ‘data drift’), so your trained model must be RE-TRAINED or FINE-TUNED over time with updates.  
