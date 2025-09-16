@@ -679,3 +679,110 @@ Businesses can leverage Google’s ecosystem in **4 key ways**:
 - Examples: Math Tutor, Friendly Assistant, Career Coach, Legal Reviewer  
 - Difference from Saved Info: Gems define assistant behavior, Saved Info stores user-specific data
 
+---
+
+# Vertex AI & NotebookLM Overview
+
+## Vertex AI: Vertex AI Platform (Forgetful)
+
+### What is VERTEX AI?
+- Vertex AI is Google Cloud's unified **Machine Learning (ML) PLATFORM LAYER** that allows developers to **BUILD, DEPLOY, and MANAGE Machine Learning MODELS** (like Gemini) with **ENTERPRISE GRADE SECURITY**.
+- Vertex AI offers a suite of tools for the entire ML workflow, from **data preparation and model training** to **deployment and monitoring**.
+- Vertex AI provides direct access to **GenAI Models** like Gemini and allows users to **FINE-TUNE or DEPLOY their OWN CUSTOM MODELS**.
+
+---
+
+### Key Tools within Vertex AI Platform
+
+1. **Vertex AI Model Garden**
+   - Provides a **collection of existing AI models** and pre-trained models.
+   - Serves as a **repository** for ready-to-use models.
+
+2. **Vertex AI Model Builder**
+   - Enables users to **customize, train, fine-tune, and deploy custom models**.
+   - Offers **AutoML** for non-technical users.
+
+3. **Vertex AI AutoML**
+   - Tool within Model Builder for building and training AI models with **minimal ML expertise**.
+
+4. **Vertex AI Model Registry**
+   - Centralized **repository to store, track, and manage model versions**.
+   - Manages **lifecycle of AI models**.
+
+5. **Vertex AI Model Monitoring**
+   - Continuously tracks **model performance and behavior** in production.
+   - Detects **data drift, accuracy issues**, etc.
+
+6. **Vertex AI Agent Builder**
+   - Builds, deploys, and manages **custom AI agents**.
+   - Supports **no-code and low-code approaches**.
+   - Example: Travel agency chatbot to handle bookings and queries.
+
+7. **Vertex AI App Builder**
+   - Quickly build AI-powered **chatbots or search applications** with minimal coding.
+
+8. **Vertex AI Feature Store**
+   - Centralized **repository to store, organize, and share ML features and datasets**.
+
+9. **Vertex AI MLOps**
+   - Strategy to **automate the full ML lifecycle** from training to monitoring.
+   - Includes sub-tools: Model Registry, Model Monitoring, Pipeline, Feature Store.
+
+10. **Vertex AI Pipeline**
+    - Automates **ML workflows** from model training to deployment.
+    - Tool within MLOps to manage end-to-end workflows.
+
+11. **Vertex AI Conversation**
+    - Builds and manages **conversation AI assistants** (chatbots, voice assistants).
+    - Example: Returns processing chatbot using APIs and policies.
+
+12. **Vertex AI Natural Language API**
+    - Analyzes and understands text using **NLP models**.
+
+13. **Vertex AI Workbench**
+    - **Notebook-based interface** for ML engineers and data scientists to explore data and build models.
+
+14. **Vertex AI Custom Training**
+    - Defines a **custom training environment** with chosen CPU, GPU, TPU, and memory.
+
+---
+
+### Difference: Vertex AI MLOps vs Pipeline
+- **MLOps**: Broader strategy automating full ML lifecycle. Includes Pipeline, Monitoring, Feature Store.
+- **Pipeline**: Tool to automate **ML workflows** from training to deployment, part of MLOps.
+
+---
+
+### Vertex AI Studio vs Google AI Studio
+
+#### Vertex AI Studio
+- Web-based UI to **customize and deploy AI models at scale**.
+- Provides **enterprise-grade security and MLOps**.
+- Targeted at **data scientists and ML engineers**.
+
+#### Google AI Studio
+- Free UI for **quick prototyping and deployment**.
+- Ideal for **beginners, hobbyists, and non-technical users**.
+- Cost-effective but **lacks enterprise security and MLOps**.
+
+---
+
+### NotebookLM
+
+#### What is NotebookLM?
+- AI research assistant and **note-taking tool** working with **user-uploaded documents** (PDFs, websites, YouTube URLs).
+- Provides **quick summaries and insights** grounded in uploaded documents (RAG technique).
+- Will respond “NO” if the answer is not in the uploaded documents.
+
+**Examples:**
+1. Students upload lecture notes and ask for summaries of chapters.
+2. Lawyers upload policy documents to highlight clauses.
+
+#### NotebookLM PLUS
+- **Premium individual tier**.
+- Enhanced AI assistance with **customized responses and analytics**.
+
+#### NotebookLM ENTERPRISE
+- **Enterprise-grade version** with security, compliance, and admin controls.
+- Allows **sharing permissions with IAM roles** (Owner, Editor, Viewer).
+
