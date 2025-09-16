@@ -211,7 +211,7 @@ There are 4 ways businesses can leverage Google’s GenAI Ecosystem:
 
 ---
 
-## Google Cloud: Other (Exam Topic – New)
+## Google Cloud: Other 
 
 ### Google Cloud API Library
 - Collection of client libraries for various programming languages (including Python).  
@@ -253,7 +253,7 @@ There are 4 ways businesses can leverage Google’s GenAI Ecosystem:
 
 ---
 
-## Types of Prebuilt APIs (Exam Topic)
+## Types of Prebuilt APIs
 1. **Speech-to-Text API** – Converts audio to text.  
 2. **Text-to-Speech API** – Converts text into natural-sounding speech.  
 3. **Translation API** – Translates websites or content (e.g., into Spanish).  
@@ -399,14 +399,14 @@ There are 4 ways businesses can leverage Google’s GenAI Ecosystem:
 - **Gems**: Define AI assistant’s behavior and instructions.  
 - **Saved Info**: Stores user-specific data for personalized outputs.
 
-# Vertex AI: Vertex AI Platform (Forgetful)
+# Vertex AI: Vertex AI Platform 
 
 ## What is VERTEX AI?
 - Vertex AI is Google Cloud's unified Machine Learning (ML) **PLATFORM LAYER** that allows developers to **BUILD, DEPLOY, and MANAGE Machine Learning MODELS** (like Gemini) with **ENTERPRISE GRADE SECURITY**.
 - Vertex AI offers a suite of tools for the entire ML workflow, from data preparation and model training to deployment and monitoring.
 - Vertex AI provides direct access to GenAI Models like Gemini and allows users to turn these existing models to **FINE-TUNE** or **DEPLOY** their own **CUSTOM MODELS**.
 
-## Key Tools within Vertex AI Platform (Exam Topic – Tricky)
+## Key Tools within Vertex AI Platform 
 
 ### 1. Vertex AI MODEL GARDEN
 - Allows users to use a **COLLECTION OF EXISTING AI MODELS** and other **PRE-TRAINED MODELS**.
@@ -559,7 +559,7 @@ There are 4 ways businesses can leverage Google’s GenAI Ecosystem:
 
 ---
 
-# AgentSpace (Exam Topic)
+# AgentSpace 
 - Centralized platform to access **internal and external systems**.
 - Enables **custom, enterprise-secure AI Agents**.
 - Uses AI agents, enterprise search, and real-time tools.
@@ -591,7 +591,7 @@ There are 4 ways businesses can leverage Google’s GenAI Ecosystem:
 ## Conversational Agents
 - Automated AI assistants for human-like interactions.
 
-## Agent Assist (Exam Topic)
+## Agent Assist 
 - Real-time assistance for human agents.
 - Example: Suggests next steps during a live customer conversation.
 
@@ -901,7 +901,7 @@ There are 4 ways businesses can leverage Google’s GenAI Ecosystem:
 
 ---
 
-## Sampling Parameters (Exam Question – Tricky)
+## Sampling Parameters 
 
 ### What are SAMPLING PARAMETERS?
 - Control settings that affect **randomness, creativity, and diversity** of model outputs.  
@@ -982,7 +982,7 @@ There are 4 ways businesses can leverage Google’s GenAI Ecosystem:
 
 ---
 
-## Responsible AI (Exam Topic)
+## Responsible AI 
 
 ### What is RESPONSIBLE AI?
 - Google's commitment to ethical, safe, and socially beneficial AI development.  
