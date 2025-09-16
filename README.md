@@ -73,4 +73,22 @@ This repository explains the three main approaches to Machine Learning: Supervis
 ## 2. Unsupervised ML Approach
 - Unsupervised Learning trains models on **unlabeled data** to find patterns, structures, or natural groupings without knowing the correct output.  
 - It has **no predefined labels or outcomes**.  
-- Foundational Models often use unsupervised lear
+- Foundational Models often use unsupervised learning to find patterns and relationships on their own.  
+
+**Examples:**
+- Train a model on fruit photos without labels. It groups them by shape, color, or size, but doesn’t know they’re apples or bananas.  
+- At a party with strangers, you group people by clothing (suits, gym wear, etc.) without knowing their names or jobs.
+
+---
+
+## 3. Reinforcement ML Approach
+- Reinforcement Learning trains models through **interaction and feedback**, learning to maximize rewards and minimize penalties.  
+- **Good behavior = reward**; **Bad behavior = penalty**.  
+
+**Examples:**
+- Training a pet with rewards/punishments  
+- Self-driving cars  
+- Playing chess or Pac-Man  
+- Robot vacuum cleaners  
+- A child learning how to get candy from a vending machine  
+
