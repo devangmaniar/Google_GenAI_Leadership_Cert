@@ -225,3 +225,135 @@ This repository explains the three main approaches to Machine Learning: Supervis
   - Audio recordings  
   - Website traffic logs without categories  
 
+# AI Models: Types of AI Models
+
+---
+
+## What are GenAI Models?
+- **GenAI Models** are a broad category of AI focused on **generating new content**:
+  - Text, Images, Music, Video  
+- Trained on **large datasets** of existing content  
+- Learn **patterns** from existing data to generate new outputs  
+- Accessible via **Google Vertex AI, AI Studio, and Gemini for Workspace**  
+
+---
+
+## What are Foundational Models?
+- **Large-scale AI models** pre-trained on massive, diverse datasets  
+- Develop a **broad understanding of the world** → can perform many tasks  
+- Act as the **brains** of AI systems and agents  
+- Can include **Large Language Models (LLMs)** but not limited to them  
+- Perform a **wide range of tasks** with little or no fine-tuning  
+- Learn **general patterns**, not task-specific rules  
+- **Subset of GenAI**  
+- Typically trained on **unlabeled data**, discovering structures & relationships  
+- **Examples:** Google Gemini, OpenAI GPT  
+
+---
+
+## What are Large Language Models (LLMs)?
+- A type of **Foundational Model** specialized in **text**  
+- Pre-trained on massive datasets of language  
+- Capable of **understanding & generating human-like text**  
+- Examples: GPT-4, PaLM  
+
+---
+
+## What are Multimodal Foundational Models?
+- Can handle **multiple types of inputs simultaneously**  
+- Process text, images, audio, and video together  
+- Provide **richer responses** by combining modalities  
+
+---
+
+## What are Diffusion Models? (Exam Topic)
+- Generate **high-quality images from text descriptions** (text-to-image)  
+- Work by **adding noise** to training images → then learn to reverse process  
+- Start from noise + text prompt → generate a new image  
+
+---
+
+## What are Machine Learning Models?
+- Algorithms that learn from **narrow or task-specific datasets**  
+- Built for **one task at a time** (e.g., house prices, spam detection)  
+- Examples: Linear Regression, Decision Tree, Random Forest  
+
+---
+
+# AI Models: Choosing the Right Model
+
+### 1. Modality (Exam Topic)
+- Type of data model can process (text, image, audio, video, structured data)  
+
+### 2. Context Window (Exam Topic)
+- Defines how much input a model can **remember** at once  
+- If input exceeds the window → model **forgets/truncates** earlier parts  
+
+### 3. Performance
+- Accuracy, efficiency, scalability  
+
+### 4. Availability & Reliability
+- Access, uptime, cost considerations  
+
+---
+
+# Foundational Models: Deep Dive
+
+## Key Features
+1. **Trained on diverse data** → broad knowledge  
+2. **Flexible** → one model supports many use cases  
+3. **Adaptable** → can be fine-tuned for domains  
+
+## Limitations (Exam Hot Topic)
+1. **Data Dependency** – quality of training data matters  
+2. **Knowledge Cutoff** – no awareness beyond training date  
+3. **Bias** – inherited from training datasets  
+4. **Fairness** – must avoid discriminatory outcomes  
+5. **Hallucinations** – generate factually incorrect but confident outputs  
+6. **Edge Cases** – unusual scenarios may cause failures  
+
+---
+
+# Differences
+
+### Foundational Models vs LLMs
+- **LLMs** = subset of foundational models (focused on language tasks)  
+- Foundation models = broader (cover language, vision, robotics, etc.)  
+- LLM examples: GPT, PaLM  
+- Foundation model examples: GPT-4 (language), Gemini (multimodal)  
+
+### Foundational vs Traditional ML Models
+- **Foundational Models**  
+  - Large-scale, pre-trained, flexible across domains  
+  - Perform multiple tasks with minimal training  
+- **Traditional Models**  
+  - Task-specific, trained on narrow datasets  
+  - Lack broad adaptability  
+
+---
+
+# AI Models: 4 Key Foundational Models
+
+## 1. Gemini
+- Google’s **multimodal foundational model**  
+- Handles text, image, audio inputs simultaneously  
+- Most powerful & flexible AI in Google Cloud  
+- Competitors: OpenAI ChatGPT, Meta LLaMA  
+
+## 2. Gemma
+- **Open-source lightweight model**  
+- Smaller, faster, easier to run than Gemini  
+- Designed for developers & startups needing efficient LLMs  
+
+## 3. Imagen
+- **Text-to-image model**  
+- Generates **photorealistic images** from text prompts  
+
+## 4. VEO
+- **Text-to-video model**  
+- Generates video clips from text, images, or video prompts  
+- Used for content creation, production, interactive tools  
+- Includes **watermarking for safety**  
+
+---
+
