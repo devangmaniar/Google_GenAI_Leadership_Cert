@@ -143,3 +143,135 @@
 2. Gemma: Lightweight, open-source model.
 3. Imagen: Text-to-image generation.
 4. VEO: Text-to-video generation.
+
+# SECTION 2: Google Cloud GenAI Offerings (35% of EXAM)
+
+## Google GenAI Ecosystem
+
+### What is Google’s GenAI ECOSYSTEM?
+- Google’s GenAI ecosystem is a comprehensive suite of models, platforms, tools, infrastructure, and integrations that work together to help users—from developers to enterprises—build, scale, and responsibly deploy generative AI solutions.
+
+### How can BUSINESS LEVERAGE GenAI ECOSYSTEM?
+There are 4 ways businesses can leverage Google’s GenAI Ecosystem:
+
+1. **Individual Productivity and Efficiency**  
+   - Use existing Google tools such as Google Search, Gemini for Google Workspace, Gemini App, Gemini for Google Cloud.  
+
+2. **Continuous Improvement**  
+   - Stay up-to-date on Security Enhancements, Performance Enhancements, and new feature updates. Google helps support keeping up with the latest advancements.  
+
+3. **Responsible AI**  
+   - Using GenAI responsibly, ethically, and securely is extremely important for all organizations.  
+
+4. **Enterprise Ready**  
+   - Building GenAI for an enterprise involves thinking about security measures, data governance, compliance certifications, and more. Companies can leverage existing Google solutions like Vertex AI, Google Cloud's Security Infrastructure, and Compliance Certifications.  
+
+---
+
+## Google Cloud
+
+### What is Google?
+- Google is an **AI FIRST COMPANY**.  
+- GenAI Tools are integrated across Google’s ecosystem.
+
+### What is GOOGLE CLOUD?
+- Google Cloud is the **PLATFORM + INFRASTRUCTURE** layer that powers the development, deployment, and scaling of Generative AI solutions with Google’s best AI models, tools, and enterprise-grade infrastructure.  
+- Designed to be **ENTERPRISE READY**, emphasizing **SECURITY, PRIVACY, RELIABILITY, and SCALABILITY**, which are critical for institutions like financial services.  
+- Includes **ROBUST SECURITY MEASURES** and **DATA PRIVACY CONTROLS** (e.g., IAM, Governance Tools).  
+- Provides tools, models, data services, and infrastructure to build and run GenAI solutions (e.g., Google Search, Gmail, Maps, Photos, Assistant, YouTube).  
+
+### Key Benefits of Google Cloud
+- Emphasizes **OPENNESS and FLEXIBILITY**.  
+- Supports various models and technologies, including first-party and open-source offerings.  
+- Enhances scalability and adaptability via an open ecosystem.  
+- Offers a wide range of **APPLICATIONS**, from foundational models to advanced infrastructure.  
+- Integration of model capabilities, hardware options, and platform services enables efficient and effective AI offerings.  
+
+### Google Cloud’s OPEN APPROACH to AI
+- Provides flexibility and choice in AI development.  
+- Supports open-source models and tools, avoiding vendor lock-in.  
+- Emphasizes an open AI ecosystem with support for popular open-source frameworks.  
+
+### What does GOOGLE CLOUD offer?
+1. **Low-Code/No-Code Tools** – Non-developers can build AI apps without heavy coding.  
+2. **APIs** – Developers can integrate AI features into apps.  
+3. **Pre-Trained Models or Pre-built APIs** – Ready-to-use AI models without building from scratch.  
+
+---
+
+## Google Cloud: Low-Code / No-Code Cloud Tools
+
+### What are LOW-CODE / NO-CODE CLOUD Tools?
+- Empower users to build applications with **MINIMAL or NO CODING**, leveraging visual development and pre-built components (e.g., AppScript, AppSheet).  
+- Allow users with **LIMITED or NO CODING SKILLS** to interact with pre-trained AI models for tasks like text generation.  
+
+### AppScript Tool
+- **Cloud-based scripting platform** to automate tasks across Google Workspace Apps like Gmail, Sheets, Docs, Drive, Calendar.  
+- Automates tasks such as:  
+  - Auto-fill a spreadsheet  
+  - Send emails based on a condition  
+  - Generate reports every Friday  
+  - Create calendar invites automatically  
+- No infrastructure required; cloud-based saves time and effort.  
+- **Example:** Auto-send weekly reports from Google Sheets.  
+
+### AppSheet Tool
+- **No-code development platform** to build and deploy mobile and web applications without coding.  
+- Designed for **NON-DEVELOPERS**.  
+- Integrates with Google Workspace Apps like Sheets, BigQuery, Drive, Gmail, Maps, Vertex AI.  
+
+---
+
+## Google Cloud: Other (Exam Topic – New)
+
+### Google Cloud API Library
+- Collection of client libraries for various programming languages (including Python).  
+- Provides pre-written functions and classes wrapping REST APIs for easier access.  
+
+### REST APIs
+- Underlying interfaces for services.  
+- Using them directly requires handling HTTP requests, authentication, and responses manually.  
+
+### Google Cloud Console
+- Web-based UI for manually managing Google Cloud resources.  
+- Not used for programmatic access from application code.  
+
+---
+
+## APIs within GenAI
+
+### What are APIs?
+- Allow developers to use AI models (like Gemini) to build features in apps (writing, chatting, coding, summarizing, etc.).  
+- Types include Text Generation API, Chat API, Code API, Functional Calling API, Multimodal API.  
+- **Example:** Automatically generate product descriptions for thousands of e-commerce items using `generateText()` API.  
+
+### Pre-Trained / Pre-Built APIs
+- **Ready-to-use ML models** integrated into applications without training your own models.  
+- Google Cloud provides pre-trained AI models wrapped as APIs.  
+- Tasks include image recognition, language translation, speech-to-text.  
+
+### PALM API
+- Provides access to Google’s LLMs like PaLM or Gemini.  
+- Integrates LLM models into applications and workflows.  
+
+### Google PaLM Model
+- **Pathways Language Model** (LLM) designed to understand and generate **human-like text**.  
+
+### Google Codey Model
+- Foundational model for coding assistance.  
+- Built on PaLM Model.  
+- Suggests next lines of code to help developers write faster with fewer errors.  
+
+---
+
+## Types of Prebuilt APIs (Exam Topic)
+1. **Speech-to-Text API** – Converts audio to text.  
+2. **Text-to-Speech API** – Converts text into natural-sounding speech.  
+3. **Translation API** – Translates websites or content (e.g., into Spanish).  
+4. **Document AI API** – Extracts information from scanned documents (invoices, receipts, forms).  
+5. **Document Translation API** – Translates entire documents while preserving formatting.  
+6. **Natural Language API** – Processes text to understand requests and analyze sentiment.  
+7. **Cloud Vision API** – Analyzes images to identify objects, faces, and text.  
+8. **Cloud Video Intelligence API** – Analyzes videos to identify objects, actions, scenes, audio, and text.  
+9. **Cloud Data Loss Prevention (DLP) API** – Discovers, classifies, and redacts sensitive data.
+
