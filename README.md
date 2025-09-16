@@ -1,56 +1,55 @@
-# My Summary Notes: Google GenAI Leadership Certification
+# What is AI? — Simple Explanation
 
-These are my personal summary notes on the Google GenAI Leadership Certification Course.  
+This repository publishes a concise, plain-language explanation of AI, ML, DL, GenAI, Foundational Models, LLMs, and NLP.
 
 ---
 
-<style>
-  .toc a {
-    text-decoration: none;
-    color: black;
-  }
-
-  .toc a:hover {
-    color: #007acc; /* Optional: add hover effect */
-  }
-</style>
-
-<h2>Table of Contents</h2>
-<ul class="toc">
-  <li><a href="#1-fundamentals-of-ai">1. Fundamentals of AI</a>
-    <ul>
-      <li><a href="#11-what-is-artificial-intelligence">1.1 What is Artificial Intelligence</a></li>
-      <li><a href="#12-what-is-machine-learning">1.2 What is Machine Learning</a></li>
-    </ul>
-  </li>
-  <li><a href="#2-what-is-generative-ai">2. What is Generative AI</a>
-    <ul>
-      <li><a href="#21-what-is-generative-ai">2.1 What is Generative AI</a></li>
-      <li><a href="#22-what-are-ways-to-use-genai">2.2 What are ways to use GenAI</a></li>
-    </ul>
-  </li>
-</ul>
-
-<hr />
-
-# 1. Fundamentals of AI
-## 1.1 What is Artificial Intelligence
+## What is Artificial Intelligence (AI)?
 - **Artificial Intelligence (AI)** is the BROADER field of Computer Science focused on CREATING or BUILDING MACHINES or COMPUTERS that can think, learn, and ACT LIKE HUMANS such as learning, problem-solving, understanding language and decision making.  
 - AI is **BUILDING MACHINES** that typically require HUMAN INTELLIGENCE.  
 - AI is basically **MIMICKING HUMAN COGNITION**.
 
-------------------------
-## 1.2 What is Machine Learning
-Machine Learning (ML) is a SUBSET of Artificial Intelligence where machines or computers LEARN FROM DATA to perform SPECIFIC TASKS. 
-ML is TEACHING Machines to learn from experience, like how humans learn. 
-------------------------
-# 2. What is Generative AI
-## 2.1 What is Generative AI
+## What is Machine Learning (ML)?
+- **Machine Learning (ML)** is a **SUBSET** of Artificial Intelligence where machines or computers **LEARN FROM DATA** to perform SPECIFIC TASKS.  
+- ML is **TEACHING Machines to learn from experience**, like how humans learn.  
+- **Example**: If you show a machine thousands of pictures of cats and dogs and tell it which is which, it will learn to recognize patterns. Later, it can predict whether a new picture is a cat or a dog.
 
-When using Markdown badges
+## What is Deep Learning (DL)?
+- Deep Learning is a **SUBSET of Machine Learning (ML)** that uses **NEURAL NETWORKS** with many layers to model and solve complex problems (images, audio, text, large-scale data).
+- It tries to **MIMIC how HUMAN BRAINS work** (neurons and layers) to learn from data in a deeper, layered way.
+- Deep Learning is **Machine Learning on STEROIDS**.
+- **Examples**:
+  - Face Recognition
+  - Voice Assistants
+  - Self-Driving Cars
+  - Language Translation (e.g., Google Translate)
 
-----------------
-## 2.2 What are ways to use GenAI
+## What is Generative AI (GenAI)?
+- **GenAI** is a **SUBSET of Deep Learning**.
+- GenAI focuses on helping users **CREATE or GENERATE NEW CONTENT** (text, images, audio, code, etc.).
+- GenAI teaches machines to be creative — generate new content that did not exist before but looks or sounds real.
 
-testsstststs
+## What are Foundational Models?
+- **Foundational Models** are a **SUBSET of GenAI**.
+- They are **LARGE-SCALE, PRE-TRAINED MODELS** (e.g., Gemini) trained on massive, diverse datasets to develop a broad understanding and perform many tasks.
+- They are the **BRAINS** of AI systems and agents.
+- **Examples**:
+  - GPT-4, DALL·E, Sora (OpenAI)
+  - Gemini, PaLM, Imagen (Google)
+  - LLaMA (Meta / Facebook)
 
+## What are Large Language Models (LLM)?
+- **LLMs** are a **SUBSET of Foundational Models**, trained mainly on **TEXT**.
+- They understand and **GENERATE HUMAN LANGUAGE** (text, speech, code).
+- **Examples**:
+  - GPT-4 (OpenAI)
+  - Gemini, PaLM (Google)
+  - LLaMA (Meta)
+  - Titan (Amazon)
+
+## What is Natural Language Processing (NLP)?
+- **NLP** is the sub-field of AI that gives machines the ability to **read, understand, and derive meaning** from human language. Classic tasks include summarization, translation, sentiment analysis, etc.
+
+## Difference between Traditional AI and Generative AI
+- **Traditional AI**: Focuses on **Prediction and Classification** based on existing data.
+- **Generative AI**: Focuses on **Creating new content** based on learned patterns.
