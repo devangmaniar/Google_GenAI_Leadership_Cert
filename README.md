@@ -863,3 +863,90 @@ There are 4 ways businesses can leverage Google’s GenAI Ecosystem:
 | Reasoning | Step-by-step + actions | Step-by-step reasoning only |
 | Example | Population of Japan: uses search | Explains reasoning using logic/math |
 
+# Vertex AI Search vs Google AI Search
+
+## What is VERTEX AI SEARCH?
+- **Enterprise-grade search engine** for your **internal business data** (documents, manuals, healthcare data, etc.).  
+- Helps build a **smart internal Google Search tool** to find and summarize data from your enterprise resources.  
+
+### Example Use Cases
+- Internal Knowledgebase for Employees  
+- Customer Support Portal (FAQs)  
+- Healthcare, Legal, or Finance Document Search Tools  
+- Product Manuals or Documentation Lookups  
+
+### Real-world Example
+- **Scenario:** Customer asks, "How do I reset my wireless earbuds?"  
+  - Vertex AI Search searches manuals, support tickets, FAQs.  
+  - Returns response referencing source:  
+    `"To reset your earbuds, press and hold the power button for 10 seconds. A flashing blue light indicates a successful reset."`
+
+---
+
+## What is GOOGLE SEARCH?
+- Google Search integrates **GenAI capabilities** into Google’s global **Web Search Engine Tool**.  
+- Uses **Grounding Technique** to improve accuracy and reduce hallucinations by connecting outputs to verifiable, up-to-date data.
+
+---
+
+## Difference: VERTEX AI SEARCH vs GOOGLE SEARCH
+- **Vertex AI Search:** Enterprise-focused search on **your own data**, including documents, structured datasets, websites.  
+- **Google Search:** General-purpose web search for the **public**, leveraging GenAI.  
+- Vertex AI Search builds **enterprise solutions** on Google Search technology.
+
+---
+
+## Difference: VERTEX AI SEARCH vs NotebookLM
+- **Vertex AI Search:** Search applications over structured/unstructured data; not specialized for Q&A or summarization.  
+- **NotebookLM:** AI-first notebook designed for **document Q&A, summarization, note-taking**, grounded in user-provided documents.
+
+---
+
+## How to Manage Models using Vertex AI
+- **Model Versioning:** Track different versions using **Vertex AI Model Registry**.  
+- **Model Performance Tracking:** Review model metrics.  
+- **Model Drift Monitoring:** Detect changes in accuracy over time via **Vertex AI Model Monitoring**.  
+- **Data Management:** Use **Vertex AI Feature Store** for centralized storage and sharing of features and datasets.  
+- **Storage:** Store models in **Vertex AI Model Garden**.  
+- **Automation:** Use **Vertex AI Pipelines** for ML lifecycle automation and CI/CD.  
+
+---
+
+## Sampling Parameters (Exam Question – Tricky)
+
+### What are SAMPLING PARAMETERS?
+- Control settings that affect **randomness, creativity, and diversity** of model outputs.  
+- Allow users to **customize and fine-tune** GenAI results.
+
+---
+
+### 1. TOKEN COUNT
+- Controls **how long the responses are** (number of tokens).  
+- Lower value → shorter sentences  
+- Higher value → longer sentences
+
+### 2. TEMPERATURE
+- Controls **randomness and creativity**.  
+- Lower value → more focused, reliable, factual  
+- Higher value → more creative, diverse, surprising
+
+### 3. TOP-P (Nucleus)
+- Limits **token selection based on probability**.  
+- Lower Top P (1.0) → considers all tokens, more factual, focused  
+- Higher Top P (0.9) → includes less probable words, more diverse
+
+### 4. SAFETY SETTINGS
+- Blocks **harmful or inappropriate content**.  
+- Lower safety → riskier, less filtered  
+- Higher safety → stricter, safer output
+
+### 5. TOP-K
+- Controls **most probable tokens**.  
+- K = number of tokens chosen (e.g., K=5 picks top 5 likely words)  
+- Lower K → very predictable  
+- Higher K → more variety, creative output
+
+### 6. OUTPUT LENGTH
+- Controls **maximum tokens or words** the model can generate.  
+- Lower value → shorter output  
+- Higher value → longer output
