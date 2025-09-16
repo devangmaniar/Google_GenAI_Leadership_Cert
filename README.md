@@ -514,3 +514,168 @@ Businesses can leverage Google’s ecosystem in **4 key ways**:
 3. **Pre-Trained Models / Pre-built APIs** → Ready-to-use AI models, no need to build from scratch.  
 
 ---
+# Google Cloud: Low-Code / No-Code Cloud Tools
+
+## What are Low-Code / No-Code Cloud Tools within Google Cloud?
+- Google Cloud’s Low-Code/No-Code Cloud Tools empower users to build applications with **minimal or no coding**, leveraging visual development and pre-built components.  
+  *Example: AppScript, AppSheet*  
+- Allows users with limited or no coding skills to interact with pre-trained AI Models for tasks like text generation.
+
+---
+
+## 1. AppScript Tool within Google Cloud
+- Cloud-based scripting platform for **automating tasks across Google Workspace apps** (Gmail, Sheets, Docs, Drive, Calendar).  
+- Allows small pieces of code to automate tasks such as:
+  - Auto-fill a spreadsheet
+  - Send emails based on conditions
+  - Generate reports every Friday
+  - Create calendar invites automatically  
+- Cloud-based, no infrastructure needed, saves time and effort.  
+- **Example**: Google Sheets – Auto-send weekly reports.
+
+---
+
+## 2. AppSheet Tool within Google Cloud
+- No-code development platform to **build and deploy mobile and web apps** without writing any code.  
+- Designed for non-developers.  
+- Integrates with Google Workspace apps like Sheets, BigQuery, Drive, Gmail, Maps, Vertex AI.
+
+---
+
+# Google Cloud: Other (Exam Topic – New)
+
+### Google Cloud API Library
+- Collection of client libraries for various languages (Python, etc.).  
+- Simplifies calling Google Cloud services programmatically.
+
+### REST APIs
+- Underlying interfaces for services.  
+- Using them directly requires manually handling HTTP requests, authentication, responses.
+
+### Google Cloud Console
+- Web-based user interface for managing Google Cloud resources.  
+- Not intended for programmatic access.
+
+---
+
+# APIs within GenAI
+
+### What are APIs within GenAI?
+- Allow developers to use AI models (like Gemini) to build smart features: writing, chatting, coding, summarizing.  
+- Types: Text Generation API, Chat API, Code API, Functional Calling API, Multimodal API.  
+- **Example**: Auto-generate product descriptions for an e-commerce site using `generateText()` API.
+
+### Pre-Trained / Prebuilt APIs
+- Ready-to-use ML models integrated into applications without training your own models.  
+- Examples: Image recognition, language translation, speech-to-text.  
+
+### Palm API
+- Provides access to Google’s LLMs like PaLM or Gemini.  
+- Integrates LLM models into apps and workflows.
+
+### Google PaLM Model
+- Pathways Language Model (LLM) for understanding and generating human-like text.
+
+### Google Codey Model
+- Foundational model for coding assistance.  
+- Built on PaLM, can suggest next lines of code.
+
+---
+
+# Types of Prebuilt APIs (Exam Topic)
+1. **Speech-to-Text API** – Converts audio to text  
+2. **Text-to-Speech API** – Converts text into natural-sounding speech  
+3. **Translation API** – Translate websites, text  
+4. **Document AI API** – Extract info from scanned documents (invoices, receipts, forms)  
+5. **Document Translation API** – Translate entire documents while preserving formatting  
+6. **Natural Language API** – Understands text, analyzes sentiment  
+7. **Cloud Vision API** – Detect objects, faces, text in images  
+8. **Cloud Video Intelligence API** – Analyze videos for objects, actions, audio, text  
+9. **Cloud Data Loss Prevention API** – Discover, classify, redact sensitive data
+
+---
+
+# Gemini
+
+### What is Gemini MODEL?
+- Large-scale, multimodal foundational model for text, images, and audio.  
+
+### What is Gemini APP?
+- Chat interface built on top of Gemini Model.  
+- Provides a **user-facing AI assistant chatbot** like ChatGPT.  
+
+### Difference: Gemini APP vs Gemini MODEL
+- **APP** – Chat interface application for user interaction  
+- **MODEL** – Underlying AI model performing the tasks
+
+---
+
+# Gemini for Google Cloud
+
+### Overview
+- AI assistant integrated across Google Cloud and Workspace.  
+- Features like **Code Assist** simplify coding, app building, cloud configuration.  
+- Enterprise-grade privacy and security.
+
+### Products under Gemini for Google Cloud
+1. **Gemini Cloud Assist** – Manages apps, writes code, solves problems via chat in Cloud Console  
+2. **Gemini Code Assist** – AI programmer: code suggestions, block generation, explanations  
+3. **Gemini in BigQuery** – Generates SQL/Python code, analyzes data, simplifies queries  
+4. **Gemini in Colab Enterprise** – Suggests, generates, and fixes code in cloud-based notebooks  
+5. **Gemini in Databases** – Interacts with databases using natural language, auto-generates SQL  
+6. **Gemini in Looker** – Interact with data using natural language; generates charts and tables  
+7. **Gemini in Security** – Threat detection, vulnerability management, remediation suggestions
+
+---
+
+# Gemini for Google Workspace
+
+### Overview
+- Suite of cloud-based collaboration tools: Gmail, Drive, Docs, Sheets, Slides, Meet, Chat.  
+- Leverages GenAI to enhance productivity.
+
+### Gemini for Workspace
+- Integrates GenAI into Gmail, Docs, Sheets, Slides, Meet.  
+- **Examples**: Draft emails, generate content, summarize notes, create formulas, assist in meetings.
+
+### Workspace Apps
+- Gmail – Draft emails, summarize threads, change tone  
+- Docs – Generate, summarize, rewrite, brainstorm  
+- Slides – Create presentations, insert videos  
+- Vids – Create informational videos from Docs, Sheets, Slides
+
+### Gemini Side Panel
+- Built-in AI assistant panel in Workspace apps for easy access.
+
+---
+
+# Gemini Advanced
+
+### What is Gemini Advanced?
+- Paid upgrade version for access to **premium Gemini models (1.5 Pro)**  
+- Offers advanced features, latest AI models, priority access, bigger storage
+
+### Google AI Pro
+- Subscription service giving access to the **most powerful Google AI models**, AI tools, research features, and expanded storage.  
+- Includes Gemini Advanced
+
+### Difference: Google AI Pro vs Gemini Advanced
+- **Gemini Advanced** – Access to premium AI models  
+- **Google AI Pro** – Access to AI models + full suite of tools for productivity, research, storage
+
+---
+
+# Gemini Saved Info
+- Store **user data/preferences** for more personalized responses  
+- Examples: Name, role, company details, address, birthday, favorite color  
+- Use Cases:  
+  - Weekly sales reports personalized by saved info  
+  - Customized cover letters
+
+---
+
+# Gems
+- Custom AI assistant versions with **specific instructions**: tone, role, personality, response behavior  
+- Examples: Math Tutor, Friendly Assistant, Career Coach, Legal Reviewer  
+- Difference from Saved Info: Gems define assistant behavior, Saved Info stores user-specific data
+
