@@ -110,3 +110,87 @@
 ### 5. Model Management / Monitoring
 - Monitor models over time for accuracy and effectiveness.
 - Address data drift by retraining or fine-tuning models.
+
+# GenAI: 4-Ways to Use GenAI
+
+## Table of Contents
+1. [Create](#create)
+2. [Summarize](#summarize)
+3. [Discover](#discover)
+4. [Automate](#automate)
+5. [Key Roles for GenAI](#key-roles-for-genai)
+6. [5-Core Layers of GenAI](#5-core-layers-of-genai)
+   - [Infrastructure Layer](#infrastructure-layer-of-genai)
+   - [Model Layer](#model-layer-of-genai)
+   - [Agent Layer](#agent-layer-of-genai)
+   - [Platform Layer](#platform-layer-of-genai)
+   - [Application Layer](#application-layer-of-genai)
+7. [Real-World Example of All 5-Core Layers](#real-world-example-of-all-5-core-layers)
+
+## 1. Create
+- Create or generate new content.
+- **Examples:** Generate text responses, draft emails, create presentations, images, videos, audio.
+
+## 2. Summarize
+- Condense large amounts of information into concise summaries.
+- **Examples:** Summarize financial reports, customer reviews, extract key takeaways from meetings, transform data into visual charts.
+
+## 3. Discover
+- Find new knowledge within data, uncover hidden patterns, trends, or insights.
+- **Examples:** Analyze purchase history to forecast, identify patterns for personalized content, search for files, detect fraudulent transactions.
+
+## 4. Automate
+- Automate manual tasks that required human intervention.
+- **Examples:** Real-time language translation, automate documentation, customer feedback, and ticket creation.
+
+## Key Roles for GenAI (Non-relevant Exam Topic)
+
+### 1. Business Leaders
+- Understand how GenAI transforms business operations.
+- Knowledge of Google Cloud's GenAI products.
+- Interact with pre-built GenAI solutions to enhance operations and customer experiences.
+
+### 2. Developers
+- Build and deploy custom AI agents and integrate AI into applications.
+- Improve custom AI models using Vertex AI Platform.
+- Use AI applications for custom agents, AI code generation, and data processing.
+
+### 3. AI Practitioners
+- Customize, deploy, and optimize generative AI models.
+- Leverage Vertex AI tools to accelerate development and ensure responsible AI.
+- Expertise includes scaling AI workloads, BigQuery integration, bias detection, and adversarial testing.
+
+## 5-Core Layers of GenAI
+
+### Infrastructure Layer of GenAI
+- Provides hardware and computing power needed for GenAI (GPUs, TPUs, storage, networking, data centers, GCP).
+- **GPUs:** Accelerate and train large-scale models, widely used.
+- **TPUs:** Specialized for machine learning workloads, faster and more efficient.
+
+### Model Layer of GenAI
+- The brains of GenAI.
+- Provides multimodal foundational models or LLMs pre-trained on massive datasets to generate text, image, audio, video, etc.
+- Accessible via Vertex AI Platform, Google AI Studio, Google Workspace.
+
+### Agent Layer of GenAI
+- Orchestrates models, tools, memory, and reasoning to build task-solving agents.
+- Generates outputs into multi-step behaviors simulating a human assistant.
+- **Example:** Travel Assistant handles flights, hotels, itinerary, booking, and updates.
+
+### Platform Layer of GenAI
+- Offers tools and services for developers and data scientists to build, customize, deploy, and manage GenAI models at scale.
+- Bridges the gap between the Model Layer and Agent/Application Layer.
+
+### Application Layer of GenAI
+- Allows end-users to interact with GenAI embedded in daily workflows and applications (Gmail, Docs, Sheets, Slides, Meet).
+- **Examples:**
+  - Google Docs: Summarize, generate content, translate, rewrite text.
+  - Gmail: Auto-draft replies, summarize long email threads.
+
+## Real-World Example of All 5-Core Layers
+- **Use Case: Car**
+  - Infrastructure Layer: Fuel, roads, chassis.
+  - Model Layer: Engine providing power and intelligence.
+  - Agent Layer: Driver controlling the journey.
+  - Platform Layer: Garage and tools for maintenance and customization.
+  - Application Layer: Dashboard and controls used by the user.
