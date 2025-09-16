@@ -395,3 +395,79 @@ Model Management or Model Monitoring
 What is Model Management or Model Monitoring?  
 •	MANAGING and MONITORING your models over time so the model stays accurate and effective as data changes over time.  
 •	Data changes over time (aka ‘data drift’), so your trained model must be RE-TRAINED or FINE-TUNED over time with updates.  
+
+# SECTION 2: Google Cloud GenAI Offerings (35% of EXAM)
+
+---
+
+## Google GenAI Ecosystem
+
+### What is Google’s GenAI EcosYSTEM?
+- Google’s GenAI ecosystem is a **comprehensive suite** of models, platforms, tools, infrastructure, and integrations.  
+- It helps users—**from developers to enterprises**—build, scale, and responsibly deploy generative AI solutions.  
+
+---
+
+### How can BUSINESS LEVERAGE GenAI ECOSYSTEM?
+Businesses can leverage Google’s ecosystem in **4 key ways**:
+
+1. **Individual Productivity and Efficiency**  
+   - Use existing Google tools such as **Google Search, Gemini for Google Workspace, Gemini App, Gemini for Google Cloud**.  
+
+2. **Continuous Improvement**  
+   - Stay up-to-date on **Security Enhancements, Performance Enhancements, and new feature updates**.  
+   - Google helps businesses stay current with the latest advancements.  
+
+3. **Responsible AI**  
+   - Use GenAI **responsibly, ethically, and securely**, which is critical for all organizations.  
+
+4. **Enterprise Ready**  
+   - Build GenAI for enterprise with focus on **security, data governance, compliance certifications, and more**.  
+   - Leverage solutions like **Vertex AI, Google Cloud Security Infrastructure, Compliance Certifications**.  
+
+---
+
+## Google Cloud
+
+### What is Google?  
+- Google is an **AI FIRST COMPANY**.  
+- GenAI Tools are **integrated across Google’s ecosystem**.  
+
+---
+
+### What is GOOGLE CLOUD?  
+- Google Cloud = **PLATFORM + INFRASTRUCTURE** layer that powers Generative AI solutions.  
+- Provides Google’s **best AI models, tools, and enterprise-grade infrastructure**.  
+- Designed to be **ENTERPRISE READY** → emphasizes:  
+  - **Security**  
+  - **Privacy**  
+  - **Reliability**  
+  - **Scalability** (especially important for industries like financial services)  
+
+- Includes **robust security measures** and **data privacy controls** (e.g., IAM, governance tools).  
+- Offers **tools, models, data services, and infrastructure** for GenAI (ex: Google Search, Gmail, Maps, Photos, Assistant, YouTube).  
+
+---
+
+### What are KEY BENEFITS of Google Cloud?
+- **Openness and Flexibility** → allows use of various models and technologies (first-party + open-source).  
+- Enables **business scalability and adaptability** through an open ecosystem.  
+- Wide range of **applications**: foundational models to advanced infrastructure.  
+- Integration of **model capabilities, hardware options, and platform services** → enables partners to deliver **efficient, effective AI offerings**.  
+
+---
+
+### What is Google Cloud’s OPEN APPROACH to AI?
+- Provides **flexibility and choice** in AI development.  
+- Supports **open-source models and tools**, avoiding vendor lock-in.  
+- Emphasizes **interoperability** with open frameworks.  
+- Promotes an **open AI ecosystem**, enabling businesses to run and adapt open-source models.  
+
+---
+
+### What does GOOGLE CLOUD offer?
+1. **Low-Code / No-Code Tools** → For non-developers to build AI apps without heavy coding.  
+2. **APIs** → For developers to easily integrate AI features into applications.  
+3. **Pre-Trained Models / Pre-built APIs** → Ready-to-use AI models, no need to build from scratch.  
+
+---
