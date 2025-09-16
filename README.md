@@ -35,7 +35,9 @@ These are my personal summary notes on the Google GenAI Leadership Certification
 
 # 1. Fundamentals of AI
 ## 1.1 What is Artificial Intelligence
-One of the easiest ways is to import images of badges or logos into your GitHub readme. You can also create something similar within your GitHub repository and import it from there. To ensure high quality, you can import images in SVG format. A list of these types of images can be found at the following links: [LINK1](https://github.com/MikeCodesDotNET/ColoredBadges#), [LINK2](https://simpleicons.org/?q=tens) and [LINK3](https://github.com/marwin1991/profile-technology-icons). Simply copy and paste similar to following code into your GitHub readme to display the image or badge.
+- **Artificial Intelligence (AI)** is the BROADER field of Computer Science focused on CREATING or BUILDING MACHINES or COMPUTERS that can think, learn, and ACT LIKE HUMANS such as learning, problem-solving, understanding language and decision making.  
+- AI is **BUILDING MACHINES** that typically require HUMAN INTELLIGENCE.  
+- AI is basically **MIMICKING HUMAN COGNITION**.
 
 ------------------------
 ## 1.2 What is Machine Learning
