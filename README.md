@@ -39,8 +39,8 @@ One of the easiest ways is to import images of badges or logos into your GitHub 
 
 ------------------------
 ## 1.2 What is Machine Learning
-•	Machine Learning (ML) is a SUBSET of Artificial Intelligence where machines or computers LEARN FROM DATA to perform SPECIFIC TASKS. 
-•	ML is TEACHING Machines to learn from experience, like how humans learn. 
+Machine Learning (ML) is a SUBSET of Artificial Intelligence where machines or computers LEARN FROM DATA to perform SPECIFIC TASKS. 
+ML is TEACHING Machines to learn from experience, like how humans learn. 
 ------------------------
 # 2. What is Generative AI
 ## 2.1 What is Generative AI
