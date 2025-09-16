@@ -53,3 +53,24 @@ This repository publishes a concise, plain-language explanation of AI, ML, DL, G
 ## Difference between Traditional AI and Generative AI
 - **Traditional AI**: Focuses on **Prediction and Classification** based on existing data.
 - **Generative AI**: Focuses on **Creating new content** based on learned patterns.
+
+# Machine Learning Approaches
+
+This repository explains the three main approaches to Machine Learning: Supervised, Unsupervised, and Reinforcement.
+
+---
+
+## 1. Supervised ML Approach
+- Supervised Learning trains models on **labeled data** to predict outputs for new inputs.  
+- It uses examples with correct answers so the model learns how to make predictions on new, similar data.  
+
+**Examples:**
+- Train a model on labeled fruit photos (apples, bananas, oranges). Once trained, the model can guess the fruit in a new photo.  
+- Train a model on house prices with labeled data (size, bedrooms, location, sale price). Once trained, the model can predict prices of new houses.
+
+---
+
+## 2. Unsupervised ML Approach
+- Unsupervised Learning trains models on **unlabeled data** to find patterns, structures, or natural groupings without knowing the correct output.  
+- It has **no predefined labels or outcomes**.  
+- Foundational Models often use unsupervised lear
