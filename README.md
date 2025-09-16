@@ -92,3 +92,136 @@ This repository explains the three main approaches to Machine Learning: Supervis
 - Robot vacuum cleaners  
 - A child learning how to get candy from a vending machine  
 
+# GenAI: 4-Ways to use GenAI
+
+## 1. Create 
+- Create or Generate New Content  
+- **Examples of Create:** generate text responses, draft emails to clients, create presentations, create images, videos and audio  
+
+## 2. Summarize 
+- Condense large amounts of information into concise summaries  
+- **Examples of Summarize:** summarize lengthy financial reports, summarize customer reviews, extract key takeaways from meetings or presentations, transform data into visual graphics or chart  
+
+## 3. Discover 
+- Find new knowledge or information within data, uncover **HIDDEN** patterns, relationships, trends, or novel insights  
+- **Examples of Discover:** analyze purchase history to predict future forecast, identify patterns to recommend personalized content to subscribers, search for files, identify fraudulent transactions  
+
+## 4. Automate 
+- Automate manual tasks that previously required human intervention  
+- **Examples of Automate:** automate language translation in real-time text-to-speech or speech-to-text, automate documentation, automate customer feedback, and ticket creation  
+
+---
+
+# Key Roles for GenAI (Non-relevant Exam Topic)
+
+### 1. Business Leaders
+- Understand how GenAI can transform and be used within a business  
+- Knowledge of Google Cloud's GenAI products and services  
+- Interact with pre-built GenAI solutions to enhance operations and improve customer experiences  
+
+### 2. Developers
+- Responsible for **building** and **deploying custom AI agents** and integrating AI into applications  
+- Use Google tools like **Vertex AI Platform**  
+- Build AI applications for agent creation, AI code generation, and AI-driven data processing  
+
+### 3. AI Practitioners 
+- Customize, deploy, and optimize generative AI models  
+- Leverage Vertex AI tools to accelerate development & ensure **responsible AI practices**  
+- Scale AI workloads, integrate with BigQuery, implement **bias detection** and **adversarial testing**  
+
+---
+
+# GenAI: 5-Core Layers of GenAI
+
+## 1. Infrastructure Layer
+- Provides **hardware & computing power** (GPUs, TPUs, storage, networking, servers, GCP, etc.)  
+- **GPU:** Graphics processors that accelerate large-scale training  
+- **TPU:** Tensor processors specialized for ML workloads, faster and more efficient for specific tasks  
+
+## 2. Model Layer
+- The **brains** of GenAI: multimodal foundational models or LLMs  
+- Pre-trained on massive datasets to generate text, images, audio, video, etc.  
+- Accessible via: **Vertex AI Platform, Google AI Studio, Google Workspace**  
+
+## 3. Agent Layer
+- Orchestrates **models, tools, memory, reasoning** into GenAI agents  
+- Turns outputs into **multi-step behaviors** like a human assistant  
+- Example: **Travel Assistant**
+  - Searches flights/hotels  
+  - Builds custom itinerary  
+  - Books after confirmation  
+  - Sends updates if flight changes  
+
+## 4. Platform Layer
+- Offers **tools & services** for developers and data teams to build, customize, deploy & manage GenAI models  
+- Acts as a **toolbox** bridging the Model Layer and Application Layer  
+
+## 5. Application Layer
+- End-users interact **directly** with GenAI  
+- Examples:
+  - **Docs**: Summarize, generate, translate, rewrite  
+  - **Gmail**: Draft replies, summarize long threads  
+
+### Real-World Example (Car)
+- **Infrastructure Layer** = fuel, roads, chassis  
+- **Model Layer** = engine  
+- **Agent Layer** = driver  
+- **Platform Layer** = garage/tools  
+- **Application Layer** = dashboard/controls  
+
+---
+
+# Data
+
+## What is Data?
+- Data = **information** used to train, build & improve ML models  
+- Comes in many forms: numbers, dates, text, images, sound  
+- **Quality Data = Effective ML Models**  
+- GenAI performance relies heavily on **data quality & accessibility**  
+
+## Key Characteristics of Quality Data
+1. Accuracy – wrong data = wrong patterns  
+2. Completeness – missing data lowers model quality  
+3. Representativeness – inclusive datasets prevent bias  
+4. Consistency – uniform data avoids contradictions  
+5. Relevance – data must match the problem  
+6. Cost – expense of acquiring/preparing data  
+
+---
+
+## Pseudonymization vs Anonymization
+- **Pseudonymization:** Replace identifiers with artificial ones (privacy with traceability)  
+- **Anonymization:** Remove personal/sensitive info entirely  
+
+---
+
+# Data: Structured vs Unstructured
+
+## 1. Structured Data
+- Organized, easy to search, fixed schema (tables, databases)  
+- Examples: Excel, SQL, CSV  
+
+## 2. Unstructured Data
+- No predefined format, messy, harder to analyze  
+- Examples: Emails, PDFs, audio recordings, images, videos  
+
+---
+
+# Data: Labeled vs Unlabeled
+
+## 1. Labeled Data
+- Tagged with labels (name, type, category)  
+- Used in **Supervised ML**  
+- Examples:
+  - Images labeled "cat" vs "dog"  
+  - Reviews labeled positive/negative  
+  - Emails tagged as billing, support, feature request  
+
+## 2. Unlabeled Data
+- Raw data with no tags  
+- Used in **Foundational Models** (Unsupervised learning)  
+- Examples:
+  - Random photo collections  
+  - Audio recordings  
+  - Website traffic logs without categories  
+
