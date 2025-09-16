@@ -609,3 +609,73 @@ There are 4 ways businesses can leverage Google’s GenAI Ecosystem:
 ## Conversational Insights
 - Analyzes trends, sentiments, and pain points from conversations.
 - Generates **reports, dashboards, and insights**.
+
+# AI on Edge
+
+## What is AI on EDGE?
+- AI on the **EDGE** refers to running AI solutions on **PHYSICAL INFRASTRUCTURE** (devices or servers) **closer to the user, data source, or point of need**.  
+- AI models on the EDGE are deployed directly onto devices or servers that are physically closer to the end-user, as opposed to **cloud computing** where it relies on remote infrastructure.  
+- AI on the EDGE runs models **LOCALLY**, benefiting data privacy and reducing reliance on internet connectivity.  
+- AI on EDGE provides tools and models specifically designed for **EDGE Devices and Mobile Phones**:
+  - **Lite Runtime (LiteRT):** Helps developers deploy AI models efficiently on edge devices.
+  - **Gemini Nano:** Google’s most efficient and compact AI model, engineered to run directly on devices.
+
+---
+
+## What is GEMINI NANO Model on Edge?
+- **Gemini Nano** is Google’s most **COMPACT AI MODEL**, designed to run directly on edge devices.
+
+---
+
+## What are EDGE DEVICES?
+- Edge Devices are **user’s physical hardware** (devices or servers) that enable **direct deployment of AI models** such as Gemini Nano.  
+- Benefits of EDGE Devices:
+  - Reduces reliance on cloud connectivity.
+  - Reduces latency.
+  - Increases processing efficiency compared to cloud computing.
+
+---
+
+## What is EDGE COMPUTING?
+- **Edge Computing** involves processing AI tasks on **local infrastructure** (devices, servers) physically closer to the data source or end-user.  
+
+### When to use EDGE Computing?
+- Low latency for faster responses.  
+- Reduce reliance on network connectivity.  
+- Ensure **data privacy and security** on a local network.  
+- Perform **local data processing**.  
+
+### Examples of Edge Computing
+- A medical device analyzing patient data in real-time during surgery.  
+- A self-driving car making instant navigation and collision-avoidance decisions.
+
+---
+
+## What is CLOUD COMPUTING?
+- **Cloud Computing** processes AI tasks on **remote infrastructure** (servers and data centers).  
+
+### When to use CLOUD Computing?
+- Large-scale model training.  
+- Access to powerful hardware like **TPUs, GPUs**, and data centers.  
+- Scalability and flexibility.  
+
+### Examples of Cloud Computing
+- Customer service chatbot handling millions of inquiries daily.  
+- AI system analyzing traffic patterns in a smart city.
+
+---
+
+## Benefits of CLOUD COMPUTING
+- **Scalability and Flexibility:** Scale resources up or down as needed.  
+- **Cost Savings:** Pay only for resources used.  
+- **Better Collaboration:** Access data globally with teams.  
+- **Advanced Security:** Automatic maintenance, centralized management, and security features.  
+- **Data Loss Prevention:** Backup and disaster recovery features.
+
+---
+
+## What is Google AI HYPERCOMPUTER?
+- Google’s **AI Hypercomputer** is a **supercomputing architecture** for large-scale AI/ML workloads.  
+- Combines optimized hardware (TPUs, GPUs), software, storage, and high-performance networking (e.g., optical circuit switches) into an integrated system.  
+- Designed to **efficiently train very large and complex AI models**.
+
