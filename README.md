@@ -409,3 +409,203 @@ There are 4 ways businesses can leverage Google’s GenAI Ecosystem:
 ## Difference Between Gems and Gemini Saved Info
 - **Gems**: Define AI assistant’s behavior and instructions.  
 - **Saved Info**: Stores user-specific data for personalized outputs.
+
+# Vertex AI: Vertex AI Platform (Forgetful)
+
+## What is VERTEX AI?
+- Vertex AI is Google Cloud's unified Machine Learning (ML) **PLATFORM LAYER** that allows developers to **BUILD, DEPLOY, and MANAGE Machine Learning MODELS** (like Gemini) with **ENTERPRISE GRADE SECURITY**.
+- Vertex AI offers a suite of tools for the entire ML workflow, from data preparation and model training to deployment and monitoring.
+- Vertex AI provides direct access to GenAI Models like Gemini and allows users to turn these existing models to **FINE-TUNE** or **DEPLOY** their own **CUSTOM MODELS**.
+
+## Key Tools within Vertex AI Platform (Exam Topic – Tricky)
+
+### 1. Vertex AI MODEL GARDEN
+- Allows users to use a **COLLECTION OF EXISTING AI MODELS** and other **PRE-TRAINED MODELS**.
+- Model Garden is a **REPOSITORY of existing PRE-TRAINED MODELS**.
+
+### 2. Vertex AI MODEL BUILDER
+- Enables users to **CUSTOMIZE, TRAIN, FINE-TUNE, and DEPLOY** custom models.
+- Offers AutoML feature for non-technical users to create models with minimal expertise.
+
+### 3. Vertex AI AutoML Tool
+- Allows building and training AI models with **MINIMAL TECHNICAL EXPERTISE**.
+
+### 4. Vertex AI MODEL REGISTRY
+- Centralized repository to **STORE, TRACK, and MANAGE** versions of AI models.
+- Manages **MODEL VERSIONS** through their lifecycle.
+
+### 5. Vertex AI MODEL MONITORING
+- Continuous **TRACKING and EVALUATION** of model performance and behavior in production.
+- Detects **DATA DRIFT, MODEL ACCURACY**, etc.
+
+### 6. Vertex AI AGENT BUILDER
+- Build, deploy, and manage **CUSTOM AI AGENTS** (e.g., Conversational Agents).
+- Supports both **no-code** and **low-code** approaches.
+- **Example:** Travel Agency creates a personalized travel agent for flight, hotel, and itinerary planning.
+
+### 7. Vertex AI APP BUILDER
+- Quickly build, customize, and deploy **AI-powered CHATBOT or SEARCH APPLICATIONS** with minimal coding.
+
+### 8. Vertex AI FEATURE STORE
+- Centralized repository to store, organize, and share **ML FEATURES** and **DATASETS**.
+
+### 9. Vertex AI MLOps
+- A set of practices that **AUTOMATES THE FULL MACHINE LEARNING LIFECYCLE**.
+- Includes Model Registry, Model Monitoring, Pipelines, Feature Store, etc.
+
+### 10. Vertex AI PIPELINE
+- Tool that **AUTOMATES MACHINE LEARNING WORKFLOWS** for model training, deployment, and monitoring.
+
+### 11. Vertex AI CONVERSATION
+- Build, deploy, and manage **CONVERSATION AI ASSISTANTS** (chatbots, virtual agents, voice assistants).
+- **Example:** Returns customer queries like “I want to return my shoes but lost the receipt.”
+
+### 12. Vertex AI NATURAL LANGUAGE API
+- Analyze and understand text using **Natural Language Processing (NLP)** models.
+
+### 13. Vertex AI WORKBENCH
+- Notebook-based interface for ML engineers and data scientists to **explore data, build models, and collaborate**.
+
+### 14. Vertex AI CUSTOM TRAINING
+- Define **CUSTOM TRAINING ENVIRONMENT** with CPU, GPU, TPU, and memory options.
+
+## Difference between Vertex AI MLOps vs Vertex AI PIPELINE
+- **MLOps:** Broader strategy automating the full ML lifecycle.
+- **Pipeline:** Specific tool automating ML workflows within MLOps.
+
+---
+
+# Vertex AI Studio vs Google AI Studio
+
+## Vertex AI Studio
+- Web-based tool to **CUSTOMIZE and DEPLOY AI MODELS** at scale.
+- Provides access to Google’s advanced AI models, enterprise-grade security, and MLOps functionality.
+
+## Google AI Studio
+- Free interface to **prototype and deploy AI models** without coding.
+- Ideal for **beginners, hobbyists, students, non-technical users**.
+
+## Key Differences
+- **Vertex AI Studio:** Enterprise-grade, targeted at ML engineers.
+- **Google AI Studio:** Free, cost-effective, beginner-friendly.
+
+---
+
+# NotebookLM
+
+## What is NotebookLM?
+- AI **RESEARCH ASSISTANT** and note-taking tool for **USER-UPLOADED DOCUMENTS**.
+- Summarizes documents, generates study guides, and produces audio briefings.
+- Uses **RAG modeling technique** to respond based only on uploaded content.
+- Returns **“NO”** if information is not available.
+
+### Examples
+1. **Students:** Summarize lecture notes + readings.
+2. **Lawyers:** Highlight clauses from policy/law documents.
+
+## NotebookLM PLUS
+- Premium individual-tier for enhanced document-grounded AI assistance.
+- Offers **increased capacity, customization, and analytics**.
+
+## NotebookLM ENTERPRISE
+- Enterprise-grade version with **added security, compliance, and admin controls**.
+- Supports **sharing permissions** via IAM roles.
+
+---
+
+# Agents
+
+## What are AGENTS?
+- Intelligent **VIRTUAL ASSISTANTS** that can **MAKE INDEPENDENT DECISIONS** and perform complex tasks.
+- Combine **AI MODELS, REASONING, MEMORY, and TOOLS**.
+- **Examples:** HR Onboarding, Travel Planner, Customer Support Agent.
+
+## Difference between Agents and Gems
+- **Agents:** Execute tasks using tools, memory, and reasoning.
+- **Gems:** Custom AI assistant with predefined **tone, role, personality**.
+
+## Types of Agents
+1. Customer Service
+2. Workflow
+3. Creative
+4. Code
+5. Data
+6. Security
+7. Employee Productivity
+
+## Categories of Agents
+1. Deterministic (predefined actions)
+2. Generative (natural language-based)
+3. Hybrid (combination of both)
+
+## How Agents Work
+1. Receives input
+2. Understands & interprets task
+3. Calls tools
+4. Generates output
+5. Delivers results
+
+### Example: Booking a Trip
+- Input: "Plan a 3-day trip to New York"
+- Agent uses tools, assembles itinerary, and presents plan.
+
+## 3-Key Components of Agents
+1. **Foundational Models:** The brain.
+2. **Reasoning Loop:** Step-by-step cognitive process.
+3. **Agent Tooling:** Tools, services, external systems.
+
+## Reasoning Loop
+- Iterative cycle to think, plan, act, and improve.
+- Example: Book meeting, summarize report, send email.
+
+## Agent Tooling
+- **Tools, services, and external systems** enabling real-time access.
+- Includes **Extensions, Functions, Data Stores, Plugins**.
+
+### Types of Agent Tooling
+1. **Extensions:** Pre-integrated APIs.
+2. **Functions:** Specific actions triggered by code blocks.
+3. **Data Stores:** Access to enterprise or historical data.
+4. **Plugins:** Extend capabilities with external apps/services.
+
+---
+
+# AgentSpace (Exam Topic)
+- Centralized platform to access **internal and external systems**.
+- Enables **custom, enterprise-secure AI Agents**.
+- Uses AI agents, enterprise search, and real-time tools.
+
+## Difference: AgentSpace vs NotebookLM
+- **NotebookLM:** Focused on source-grounded documents.
+- **AgentSpace:** Enterprise-wide info retrieval and automation.
+
+## Multi-Agent Applications
+- Divide complex tasks into smaller tasks.
+- Multiple agents collaborate for efficiency.
+- Example: Customer complaint analysis.
+
+## Cloud Tools for Agents
+1. **Cloud Storage:** Access files/documents.
+2. **Cloud Functions:** Serverless code execution.
+3. **Cloud Run:** Deploy containerized agent code.
+4. **Database:** Store and query structured data.
+5. **Vertex AI:** Build, deploy, manage AI agents.
+
+## Customer Engagement Suite
+- Tools to **improve customer satisfaction** via automation and insights.
+- Includes Conversational Agents, Agent Assist, and Conversational Insights.
+
+## CCaaS (Contact Center as a Service)
+- Cloud-based contact center solution.
+- Consolidates all channels under one unified view.
+
+## Conversational Agents
+- Automated AI assistants for human-like interactions.
+
+## Agent Assist (Exam Topic)
+- Real-time assistance for human agents.
+- Example: Suggests next steps during a live customer conversation.
+
+## Conversational Insights
+- Analyzes trends, sentiments, and pain points from conversations.
+- Generates **reports, dashboards, and insights**.
